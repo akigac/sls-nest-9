@@ -58,6 +58,9 @@ $ yarn test:e2e
 
 # test coverage
 $ yarn test:cov
+
+# serverless offline
+npx sls offline
 ```
 
 ## Support
@@ -77,4 +80,12 @@ yarn deploy:prd
 ## test
 ```
 npx sls offline
+```
+
+## version up
+```
+npm install -g npm-check-updates
+ncu
+ncu -u
+yarn install
 ```

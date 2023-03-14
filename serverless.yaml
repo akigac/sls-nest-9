@@ -43,6 +43,11 @@ functions:
           path: /hello
     layers:
       - { Ref: NodeLambdaLayer }
+  # Single batch execution
+  hello-batch:
+    handler: dist/function/hello.handler
+    layers:
+      - { Ref: NodeLambdaLayer }
 
 package:
   patterns:

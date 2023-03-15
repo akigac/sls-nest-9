@@ -2588,10 +2588,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/aws-lambda@npm:^8.10.111":
-  version: 8.10.111
-  resolution: "@types/aws-lambda@npm:8.10.111"
-  checksum: 160ae845d5482220135f03680a97252b733e7e7decdbf46e9d482ccfe6c0ab68baeb648768979b8edb73561eb05de1087934fb59e48b4dbfe1ff2e548c3d67b6
+"@types/aws-lambda@npm:^8.10.112":
+  version: 8.10.112
+  resolution: "@types/aws-lambda@npm:8.10.112"
+  checksum: 37e3fd713db1300cf13e93cdb37a23096c5a3e1ef14e753e41081d585281e35b36e4191b7f4d72d9d878c2e7b025b2af9b9b12f33ddc1dc0c5892f7861cfa3b5
   languageName: node
   linkType: hard
 
@@ -2770,10 +2770,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:^18.15.2":
-  version: 18.15.2
-  resolution: "@types/node@npm:18.15.2"
-  checksum: 6db83062d295f9da63e7b24477f734b497170a577b21e0c13637d6f355d53713f875536e52ff02938221330d919700b5ed787dc493e32624a3ecb6c86105cfc8
+"@types/node@npm:^18.15.3":
+  version: 18.15.3
+  resolution: "@types/node@npm:18.15.3"
+  checksum: 31b1d92475a82c30de29aa6c0771b18a276552d191283b4423ba2d61b3f01159bf0d02576c0b7cc834b043997893800db6bb47f246083ed85aa45e79c80875d7
   languageName: node
   linkType: hard
 
@@ -3548,7 +3548,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"aws-sdk@npm:^2.1326.0, aws-sdk@npm:^2.1334.0":
+"aws-sdk@npm:^2.1326.0":
   version: 2.1334.0
   resolution: "aws-sdk@npm:2.1334.0"
   dependencies:
@@ -9801,15 +9801,14 @@ __metadata:
     "@nestjs/schematics": ^9.0.4
     "@nestjs/swagger": ^6.2.1
     "@nestjs/testing": ^9.3.9
-    "@types/aws-lambda": ^8.10.111
+    "@types/aws-lambda": ^8.10.112
     "@types/jest": 29.4.1
-    "@types/node": ^18.15.2
+    "@types/node": ^18.15.3
     "@types/supertest": ^2.0.12
     "@typescript-eslint/eslint-plugin": ^5.55.0
     "@typescript-eslint/parser": ^5.55.0
     "@vendia/serverless-express": ^4.10.1
     aws-lambda: ^1.0.7
-    aws-sdk: ^2.1334.0
     eslint: ^8.36.0
     eslint-config-prettier: ^8.7.0
     eslint-plugin-prettier: ^4.2.1

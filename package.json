@@ -30,7 +30,6 @@
     "@nestjs/platform-express": "^9.3.9",
     "@vendia/serverless-express": "^4.10.1",
     "aws-lambda": "^1.0.7",
-    "aws-sdk": "^2.1334.0",
     "reflect-metadata": "^0.1.13",
     "rimraf": "^4.4.0",
     "rxjs": "^7.8.0"
@@ -40,9 +39,9 @@
     "@nestjs/schematics": "^9.0.4",
     "@nestjs/swagger": "^6.2.1",
     "@nestjs/testing": "^9.3.9",
-    "@types/aws-lambda": "^8.10.111",
+    "@types/aws-lambda": "^8.10.112",
     "@types/jest": "29.4.1",
-    "@types/node": "^18.15.2",
+    "@types/node": "^18.15.3",
     "@types/supertest": "^2.0.12",
     "@typescript-eslint/eslint-plugin": "^5.55.0",
     "@typescript-eslint/parser": "^5.55.0",
@@ -79,7 +78,7 @@
     "testEnvironment": "node"
   },
   "volta": {
-    "node": "16.18.1",
+    "node": "18.15.0",
     "yarn": "3.3.0"
   }
 }

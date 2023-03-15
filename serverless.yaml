@@ -9,7 +9,7 @@ plugins:
 provider:
   name: aws
   region: ap-northeast-1
-  runtime: nodejs16.x
+  runtime: nodejs18.x
   environment:
     ACCOUNT_ID: ${env:ACCOUNT_ID}
   deploymentBucket:
@@ -43,6 +43,7 @@ functions:
           path: /hello
     layers:
       - { Ref: NodeLambdaLayer }
+
   # Single batch execution
   hello-batch:
     handler: dist/function/hello.handler
@@ -65,7 +66,7 @@ layers:
     name: ${self:service}-${sls:stage}-nodeLayer
     description: Description of what the lambda layer does 
     compatibleRuntimes:
-      - nodejs16.x
+      - nodejs18.x
     package:
       patterns:
         - node_modules/**

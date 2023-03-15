@@ -75,6 +75,8 @@ Nest is [MIT licensed](LICENSE).
 ```
 yarn build:layer
 yarn deploy:prd
+
+npx sls deploy --stage dev --aws-profile user
 ```
 
 ## test

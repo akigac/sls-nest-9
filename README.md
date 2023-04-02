@@ -82,6 +82,9 @@ npx sls deploy --stage dev --aws-profile user
 ## test
 ```
 npx sls offline
+http://localhost:3000/dev/app
+http://localhost:3000/dev/hello
+
 ```
 
 ## version up
